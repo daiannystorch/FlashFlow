@@ -22,4 +22,11 @@ Este projeto foi construído do zero utilizando as tecnologias fundamentais da w
 
 *Desenvolvido com dedicação para consolidação de conhecimentos em Front-end.*
 
+---
+👨‍💻 Autora
+Desenvolvido com amor 💜por Daianny Storch
+
+GitHub: https://github.com/daiannystorch
+LinkedIn: https://www.linkedin.com/in/daianny-storch/
+⭐ Se você gostou do projeto, considere dar uma estrela no repositório!
 
