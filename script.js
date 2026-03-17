@@ -1,24 +1,69 @@
 const flashcard = [
-  {
-		pergunta: "O que é JavaScript?",
-		resposta: "JavaScript é uma linguagem de programação interpretada e orientada a objetos, usada principalmente para adicionar interatividade e dinamismo a páginas web."
-	},
-	{
-		pergunta: "O que são funções de callback em JavaScript?",
-		resposta: "São funções passadas como argumento para outra função, que serão executadas após um determinado evento ou operação."
-	},
-	{
-		pergunta: "O que é o this em JavaScript?",
-		resposta: "this se refere ao contexto de execução atual. Seu valor varia dependendo de como a função é chamada."
-	},
-	{
-		pergunta: "O que é hoisting em JavaScript?",
-		resposta: 'Hoisting é o comportamento em que declarações de variáveis e funções são "movidas" para o topo do escopo durante a fase de compilação. Isso faz com que seja possível usar uma função antes de sua definição no código.'
-	},
-	{
-		pergunta: "O que são tipos primitivos em JavaScript?",
-		resposta: "Os tipos primitivos em JavaScript são: String, Number, Boolean, Null, Undefined, BigInt e Symbol. Eles representam valores imutáveis e não são objetos."
-	},
+ // Vogais
+  { pergunta: "あ", resposta: "A" },
+  { pergunta: "い", resposta: "I" },
+  { pergunta: "う", resposta: "U" },
+  { pergunta: "え", resposta: "E" },
+  { pergunta: "お", resposta: "O" },
+
+  // Família do K
+  { pergunta: "か", resposta: "KA" },
+  { pergunta: "き", resposta: "KI" },
+  { pergunta: "く", resposta: "KU" },
+  { pergunta: "け", resposta: "KE" },
+  { pergunta: "こ", resposta: "KO" },
+
+  // Família do S
+  { pergunta: "さ", resposta: "SA" },
+  { pergunta: "し", resposta: "SHI" },
+  { pergunta: "す", resposta: "SU" },
+  { pergunta: "せ", resposta: "SE" },
+  { pergunta: "そ", resposta: "SO" },
+
+  // Família do T
+  { pergunta: "た", resposta: "TA" },
+  { pergunta: "ち", resposta: "CHI" },
+  { pergunta: "つ", resposta: "TSU" },
+  { pergunta: "て", resposta: "TE" },
+  { pergunta: "と", resposta: "TO" },
+
+  // Família do N
+  { pergunta: "な", resposta: "NA" },
+  { pergunta: "に", resposta: "NI" },
+  { pergunta: "ぬ", resposta: "NU" },
+  { pergunta: "ね", resposta: "NE" },
+  { pergunta: "の", resposta: "NO" },
+
+  // Família do H
+  { pergunta: "は", resposta: "HA" },
+  { pergunta: "ひ", resposta: "HI" },
+  { pergunta: "ふ", resposta: "FU" },
+  { pergunta: "へ", resposta: "HE" },
+  { pergunta: "ほ", resposta: "HO" },
+
+  // Família do M
+  { pergunta: "ま", resposta: "MA" },
+  { pergunta: "み", resposta: "MI" },
+  { pergunta: "む", resposta: "MU" },
+  { pergunta: "め", resposta: "ME" },
+  { pergunta: "も", resposta: "MO" },
+
+  // Família do Y
+  { pergunta: "や", resposta: "YA" },
+  { pergunta: "ゆ", resposta: "YU" },
+  { pergunta: "よ", resposta: "YO" },
+
+  // Família do R
+  { pergunta: "ら", resposta: "RA" },
+  { pergunta: "り", resposta: "RI" },
+  { pergunta: "る", resposta: "RU" },
+  { pergunta: "れ", resposta: "RE" },
+  { pergunta: "ろ", resposta: "RO" },
+
+  // Família do W e N (sozinho)
+  { pergunta: "わ", resposta: "WA" },
+  { pergunta: "を", resposta: "WO" },
+  { pergunta: "ん", resposta: "N" }
 ];
 let cartaoatual = 0;
 const flashcardElement = document.querySelector('.flashcard');
