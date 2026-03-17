@@ -50,7 +50,7 @@ body {
   padding: 24px;
 }
 .pergunta, .resposta {
-  font-size: auto;
+  font-size: 80px;
   text-align: center;
   font-weight: 400;
   color: #1e1e1e;
