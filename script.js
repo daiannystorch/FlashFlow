@@ -1,69 +1,69 @@
 const flashcard = [
  // Vogais
-  { pergunta: "あ", resposta: "A" },
-  { pergunta: "い", resposta: "I" },
-  { pergunta: "う", resposta: "U" },
-  { pergunta: "え", resposta: "E" },
-  { pergunta: "お", resposta: "O" },
+  { pergunta: "ア", resposta: "A" },
+  { pergunta: "イ", resposta: "I" },
+  { pergunta: "ウ", resposta: "U" },
+  { pergunta: "エ", resposta: "E" },
+  { pergunta: "オ", resposta: "O" },
 
   // Família do K
-  { pergunta: "か", resposta: "KA" },
-  { pergunta: "き", resposta: "KI" },
-  { pergunta: "く", resposta: "KU" },
-  { pergunta: "け", resposta: "KE" },
-  { pergunta: "こ", resposta: "KO" },
+  { pergunta: "カ", resposta: "KA" },
+  { pergunta: "キ", resposta: "KI" },
+  { pergunta: "ク", resposta: "KU" },
+  { pergunta: "ケ", resposta: "KE" },
+  { pergunta: "コ", resposta: "KO" },
 
   // Família do S
-  { pergunta: "さ", resposta: "SA" },
-  { pergunta: "し", resposta: "SHI" },
-  { pergunta: "す", resposta: "SU" },
-  { pergunta: "せ", resposta: "SE" },
-  { pergunta: "そ", resposta: "SO" },
+  { pergunta: "サ", resposta: "SA" },
+  { pergunta: "シ", resposta: "SHI" },
+  { pergunta: "ス", resposta: "SU" },
+  { pergunta: "セ", resposta: "SE" },
+  { pergunta: "ソ", resposta: "SO" },
 
   // Família do T
-  { pergunta: "た", resposta: "TA" },
-  { pergunta: "ち", resposta: "CHI" },
-  { pergunta: "つ", resposta: "TSU" },
-  { pergunta: "て", resposta: "TE" },
-  { pergunta: "と", resposta: "TO" },
+  { pergunta: "タ", resposta: "TA" },
+  { pergunta: "チ", resposta: "CHI" },
+  { pergunta: "ツ", resposta: "TSU" },
+  { pergunta: "テ", resposta: "TE" },
+  { pergunta: "ト", resposta: "TO" },
 
   // Família do N
-  { pergunta: "な", resposta: "NA" },
-  { pergunta: "に", resposta: "NI" },
-  { pergunta: "ぬ", resposta: "NU" },
-  { pergunta: "ね", resposta: "NE" },
-  { pergunta: "の", resposta: "NO" },
+  { pergunta: "ナ", resposta: "NA" },
+  { pergunta: "ニ", resposta: "NI" },
+  { pergunta: "ヌ", resposta: "NU" },
+  { pergunta: "ネ", resposta: "NE" },
+  { pergunta: "ノ", resposta: "NO" },
 
   // Família do H
-  { pergunta: "は", resposta: "HA" },
-  { pergunta: "ひ", resposta: "HI" },
-  { pergunta: "ふ", resposta: "FU" },
-  { pergunta: "へ", resposta: "HE" },
-  { pergunta: "ほ", resposta: "HO" },
+  { pergunta: "ハ", resposta: "HA" },
+  { pergunta: "ヒ", resposta: "HI" },
+  { pergunta: "フ", resposta: "FU" },
+  { pergunta: "ヘ", resposta: "HE" },
+  { pergunta: "ホ", resposta: "HO" },
 
   // Família do M
-  { pergunta: "ま", resposta: "MA" },
-  { pergunta: "み", resposta: "MI" },
-  { pergunta: "む", resposta: "MU" },
-  { pergunta: "め", resposta: "ME" },
-  { pergunta: "も", resposta: "MO" },
+  { pergunta: "マ", resposta: "MA" },
+  { pergunta: "ミ", resposta: "MI" },
+  { pergunta: "ム", resposta: "MU" },
+  { pergunta: "メ", resposta: "ME" },
+  { pergunta: "モ", resposta: "MO" },
 
   // Família do Y
-  { pergunta: "や", resposta: "YA" },
-  { pergunta: "ゆ", resposta: "YU" },
-  { pergunta: "よ", resposta: "YO" },
+  { pergunta: "ヤ", resposta: "YA" },
+  { pergunta: "ユ", resposta: "YU" },
+  { pergunta: "ヨ", resposta: "YO" },
 
   // Família do R
-  { pergunta: "ら", resposta: "RA" },
-  { pergunta: "り", resposta: "RI" },
-  { pergunta: "る", resposta: "RU" },
-  { pergunta: "れ", resposta: "RE" },
-  { pergunta: "ろ", resposta: "RO" },
+  { pergunta: "ラ", resposta: "RA" },
+  { pergunta: "リ", resposta: "RI" },
+  { pergunta: "ル", resposta: "RU" },
+  { pergunta: "レ", resposta: "RE" },
+  { pergunta: "ロ", resposta: "RO" },
 
   // Família do W e N (sozinho)
-  { pergunta: "わ", resposta: "WA" },
-  { pergunta: "を", resposta: "WO" },
-  { pergunta: "ん", resposta: "N" }
+  { pergunta: "ワ", resposta: "WA" },
+  { pergunta: "ヲ", resposta: "WO" },
+  { pergunta: "ン", resposta: "N" }
 ];
 let cartaoatual = 0;
 const flashcardElement = document.querySelector('.flashcard');
