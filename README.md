@@ -6,6 +6,7 @@ Foi criada uma branch paralela chamada `Hiragana`, onde a lógica de JavaScript 
 
 ---
 👨‍💻 Autora
+
 Desenvolvido com amor 💜por Daianny Storch
 
 GitHub: https://github.com/daiannystorch
